@@ -30,9 +30,10 @@ function draw()
   {
     background("green");
   }
-
-
-  
+  if (keyIsDown(SPACE))
+  {
+    background("white");
+  }
   drawSprites();
 }
 
